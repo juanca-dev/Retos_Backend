@@ -15,14 +15,19 @@ nombre = input("ingrese su nombre")
 
 edad = int( input('ingrese su edad'))
 
-
-if edad > 18:
-  print('es menor de edad ') 
-if  edad < 18:
-  print('eres mayor de edad')
-
-else 
+import time
+time.strftime("%H:%M:%S") 
 
 
 
-
+if edad>=18:
+  print ("No estas obligado a hacer nada")      
+else:
+  if edad<=0:  
+    print ("si es mas de las 6pm")
+  else:  
+    if edad<18:
+       print ('Debe ir a dormir y si no hacer la tarea')
+    else:
+       print ('Eres mayor de edad')
+print ('Hasta la proxima')
