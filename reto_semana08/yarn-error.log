@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js start:dev
+
+PATH: 
+  C:\Python\Scripts\;C:\Python\;C:\Scripts\;C:\;C:\Users\SEBASTIAN MORALES\AppData\Local\Microsoft\WindowsApps;"C:\Users\SEBASTIAN MORALES\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-14\bin";C:\Users\SEBASTIAN MORALES\.dotnet\tools;C:\Users\SEBASTIAN MORALES\AppData\Local\Programs\Microsoft VS Code\bin;C:\php-7.4.10php.exe;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\cmake\bin;C:\TDM-GCC-64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\SEBASTIAN MORALES\AppData\Local\Microsoft\WindowsApps;"C:\Users\SEBASTIAN MORALES\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-14\bin";C:\Users\SEBASTIAN MORALES\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SEBASTIAN MORALES\AppData\Local\GitHubDesktop\bin;C:\Users\SEBASTIAN MORALES\AppData\Roaming\npm;C:\Users\SEBASTIAN MORALES\.dotnet\tools;%PyCharm%;C:\Program Files\JetBrains\PyCharm Edu 2020.3.4\bin;;C:\xampp\php;C:\Users\SEBASTIAN MORALES\AppData\Local\ComposerSetup\bin;C:\Users\SEBASTIAN MORALES\AppData\Roaming\Composer\vendor\bin;C:\clion\CLion 2021.1.1\bin;;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Curso de Especialización Full Stack\CodOnline-02\Módulo 2 Desarrollo Web BackEnd\Retos_Semanales\Retos_Backend\reto_semana08\package.json: Unexpected string in JSON at position 254
+      at JSON.parse (<anonymous>)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "reto_semana08",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start:dev": "nodemon --exec babel-node ./src/index.js",
+      "start": "node ./build/index.js",
+      "build": "babel src/ --out-dir build/"
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "description": "",
+    "dependencies": {
+      "express": "^4.17.1",
+      "express-handlebars": "^5.3.2",
+      "firebase-admin": "^9.7.0",
+      "morgan": "^1.10.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
